@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <!--下面一句话应该是来设置页面小图标的,在这个程序中有用-->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>灵首的SPIFFS上传</title>
+</head>
+
+<body>
+	<center>
+    <a href="https://www.bilibili.com" target="_blank"><img src="/img/lingsou.jpg" alt="灵首"></a>
+    <h1>以下旋钮可控制ESP32S3开发板LED亮度</h1>
+    <h1>ESP32S3 SPIFFS 文件上传</h1>
+    <p>点击按钮选择需要上传的文件</p>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="data">
+        <input class="button" type="submit" value="上传">
+    </form>
+	</center>
+</body>
+
+</html>
